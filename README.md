@@ -5,10 +5,11 @@ A DNA-binding protein identification method via using sequence-driven features.
     - Python, Java, Perl
     - SANN software (https://github.com/newtonjoo/sann)
     - NCBI nr90 database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
+    - Linux system (suggested CentOS 7)
 
 ## Installation:
 
-*Download I-LBR.tar.gz 
+*Download TargetDBP+.jar, xxxx 
 ~~~
   $ tar xvzf I-LBR.tar.gz
   $ cd I-LBR
