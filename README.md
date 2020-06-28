@@ -9,7 +9,7 @@ A DNA-binding protein identification method via using sequence-driven features.
 
 ## Installation:
 
-*Download this repository first, then uncompress this downloade file.
+*Download this repository at https://github.com/jun-csbio/TargetDBPPlus.git or https://codeload.github.com/jun-csbio/TargetDBPPlus/zip/master first. Then, uncompress it and run the following command lines on Linux System.
 ~~~
   $ cd ./model/
   $ java -jar xxxx.jar xxx/
