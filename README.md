@@ -30,9 +30,8 @@ BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
 BLASTPGP_SSITE_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
 BLASTPGP_DB_PATH=xx/nr
 SANN_RUNNER_PATH=yy/SANN/sann/bin/sann.sh
-
-
 ~~~
+
 Note that, "xx" should be the absolute path of the downloaed NCBI nr90 database. "yy" should be the absolute path of the installed SANN software.
 
 ## Run example
