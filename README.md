@@ -11,12 +11,21 @@ A DNA-binding protein identification method via using sequence-driven features.
 
 *Download TargetDBP+.jar, xxxx 
 ~~~
-  $ tar xvzf I-LBR.tar.gz
-  $ cd I-LBR
-  $ java -jar I-LBR.jar "2w1aC" "EIDTLREEIDRLDAEILALVKRRAEVSKAIGKARMASGGTRLVHSREMKVIERYSELGPDGKDLAILLLRLGRGRLGH" null 0.3 ./tempfolder ./savefolder 4
+  $ cd ./model/
+  $ java -jar xxxx.jar xxx/
+  $ java -jar xxxx.jar yyy/
+  $ cd ../tools/
+  $ tar zxvf blast
+  $ java -jar TargetDBP+.jar ./example/
 ~~~
 
-*Edit the SANN_RUNNER_PATH and BLASTPGP_DB_PATH variable in the file “Config.properties”
+*The file of “Config.properties” should be set as follows:
+~~~
+BLASXXX=xxx
+xxx
+xxx
+xxx
+~~~
 
 ## Update History:
 
