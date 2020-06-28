@@ -22,16 +22,18 @@ A DNA-binding protein identification method via using sequence-driven features.
 
 *The file of “Config.properties” should be set as follows:
 ~~~
-TARGETDBPPLUS_PRED_MODEL=xxxx/model/targetdbpplus.mod
-DBS_PRED_MODEL=xxxx/dbs_pred_mod
-PSIPRED321_FOLDER_DIR=xxxx/tools/psipred321
-BLAST_BIN_DIR=xxxx/tools/blast-2.2.26
-BLASTPGP_EXE_PATH=xxxx/tools/blast-2.2.26/blastpgp
-BLASTPGP_DB_PATH=xxxx/nr/nr
-SANN_RUNNER_PATH=yyyy/SANN/sann/bin/sann.sh
-BLASTPGP_SSITE_OUTPUT_PARSER_DIR=xxxx/tools/junh_BlastpgpSSITEOutputPARSER
+TARGETDBPPLUS_PRED_MODEL=./model/dbp/targetdbpplus.mod
+DBS_PRED_MODEL=./model/dbs/dbs.mod
+PSIPRED321_FOLDER_DIR=./tools/psipred321
+BLAST_BIN_DIR=./tools/blast-2.2.26
+BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
+BLASTPGP_SSITE_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
+BLASTPGP_DB_PATH=xx/nr
+SANN_RUNNER_PATH=yy/SANN/sann/bin/sann.sh
+
+
 ~~~
-Note that, "xxxx" should be the absolute path of this downloaded repository on your system. "yyyy" should be the absolute path of the installed SANN software.
+Note that, "xx" should be the absolute path of the downloaed NCBI nr90 database. "yy" should be the absolute path of the installed SANN software.
 
 ## Run example
 ~~~
