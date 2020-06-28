@@ -38,7 +38,7 @@ Note that, "xx" should be the absolute path of the downloaed NCBI nr90 database.
 ~~~
   $ java -jar TargetDBP+.jar ./example/
 ~~~
-The outputted probability of belonging to the class of DBPs of query sequences could be found at "./example/xxxx"
+The outputted probability of belonging to the class of DBPs of query sequences could be found at "./example/querys.jun_res"
 
 ## Update History:
 
