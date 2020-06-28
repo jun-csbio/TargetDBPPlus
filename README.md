@@ -11,12 +11,13 @@ A DNA-binding protein identification method via using sequence-driven features.
 
 *Download this repository at https://github.com/jun-csbio/TargetDBPPlus.git or https://codeload.github.com/jun-csbio/TargetDBPPlus/zip/master first. Then, uncompress it and run the following command lines on Linux System.
 ~~~
-  $ cd ./model/
-  $ java -jar xxxx.jar xxx/
-  $ java -jar xxxx.jar yyy/
-  $ cd ../tools/
-  $ tar zxvf blast
-  $ java -jar TargetDBP+.jar ./example/
+  $ cd ./tools/
+  $ tar zxvf blast-2.2.26.tar.gz
+  $ tar zxvf junh_BlastpgpSSITEOutputPARSER.tar.gz
+  $ tar zxvf psipred321.tar.gz
+  $ cd ..
+  $ java -jar FileUnion.jar ./model/dbs/ ./model/dbs/dbs.mod
+  $ java -jar FileUnion.jar ./model/dbp/ ./model/dbp/targetdbpplus.mod
 ~~~
 
 *The file of “Config.properties” should be set as follows:
@@ -31,6 +32,12 @@ SANN_RUNNER_PATH=yyyy/SANN/sann/bin/sann.sh
 BLASTPGP_SSITE_OUTPUT_PARSER_DIR=xxxx/tools/junh_BlastpgpSSITEOutputPARSER
 ~~~
 Note that, "xxxx" should be the absolute path of this downloaded repository on your system. "yyyy" should be the absolute path of the installed SANN software.
+
+## Run example
+~~~
+  $ java -jar TargetDBP+.jar ./example/
+~~~
+The outputted probability of belonging to the class of DBPs of query sequences could be found at "./example/xxxx"
 
 ## Update History:
 
