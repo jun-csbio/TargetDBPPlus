@@ -9,7 +9,7 @@ A DNA-binding protein identification method via using sequence-driven features.
 
 ## Installation:
 
-*Download TargetDBP+.jar, xxxx 
+*Download this repository first, then uncompress this downloade file.
 ~~~
   $ cd ./model/
   $ java -jar xxxx.jar xxx/
