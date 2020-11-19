@@ -44,6 +44,7 @@ The outputted probability of belonging to the class of DBPs of query sequences c
 
 - First release 2020-05-23
 - Upload the source code of TargetDBP+ 2020-09-03
+- Update the dataset and model of TargetDBP+ 2020-11-19
 
 ## References
 
