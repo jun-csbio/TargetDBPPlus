@@ -28,6 +28,7 @@ PSIPRED321_FOLDER_DIR=./tools/psipred321
 BLAST_BIN_DIR=./tools/blast-2.2.26
 BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
 BLASTPGP_SSITE_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
+
 BLASTPGP_DB_PATH=xx/nr
 SANN_RUNNER_PATH=yy/SANN/sann/bin/sann.sh
 ~~~
