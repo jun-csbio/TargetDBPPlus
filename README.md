@@ -15,6 +15,7 @@ A DNA-binding protein identification method via using sequence-driven features.
   $ tar zxvf blast-2.2.26.tar.gz
   $ tar zxvf junh_BlastpgpSSITEOutputPARSER.tar.gz
   $ tar zxvf psipred321.tar.gz
+  $ chmod -R 777 ./*
   $ cd ..
   $ java -jar FileUnion.jar ./model/dbs/ ./model/dbs/dbs.mod
   $ java -jar FileUnion.jar ./model/dbp/ ./model/dbp/targetdbpplus.mod
